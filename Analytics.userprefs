@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{2364B3B0-B9E7-48FC-A65D-950E7EDB40DE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Application.Domain/Repository/UnitOfWork.cs">
+    <Files>
+      <File FileName="Application.Data/Context/DatabaseContext.cs" Line="15" Column="35" />
+      <File FileName="Application.Domain/Domain/Value.cs" Line="15" Column="9" />
+      <File FileName="Application.Domain/Repository/UnitOfWork.cs" Line="10" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.src.1_220-_220Interface.Application.Web.API PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
