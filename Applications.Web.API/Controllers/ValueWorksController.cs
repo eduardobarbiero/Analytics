@@ -57,15 +57,16 @@ namespace Application.Web.API.Controllers
         }
 
         [HttpPut("{id}")]
-        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ValuesRequest))]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ValueWorksRequest))]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status422UnprocessableEntity)]
-        public async Task<IActionResult> Put([FromRoute] long valueId, [FromRoute] long id, [FromBody] ValuesRequest value)
+        public async Task<IActionResult> Put([FromRoute] long valueId, [FromRoute] long id, [FromBody] ValueWorksRequest valueWork)
         {
-            var currentValue = await uow.Values.GetAsync(id);
-            mapper.Map(value, currentValue);
+            var actualValue = await uow.Values.GetAsync(valueId);
+            
+            mapper.Map(valueWork, actualValue.FindValueWork(id));
 
-            uow.Values.Update(currentValue);
+            uow.Values.Update(actualValue);
 
             await uow.CommitAsync();
 
@@ -79,8 +80,8 @@ namespace Application.Web.API.Controllers
         [ProducesResponseType(StatusCodes.Status422UnprocessableEntity)]
         public async Task<IActionResult> Delete([FromRoute] long valueId, [FromRoute] long id)
         {
-   
-            uow.Values.Remove(await uow.Values.GetAsync(id));
+            var actualValue = await uow.Values.GetAsync(valueId);            
+            actualValue.ValueWorks.Remove(actualValue.FindValueWork(id));
 
             await uow.CommitAsync();
 
