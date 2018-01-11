@@ -1,6 +1,7 @@
 ﻿using Domain.Domain;
 using Infrastructure.Config;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Infraestructure.Repositories.Templates
@@ -12,8 +13,11 @@ namespace Infraestructure.Repositories.Templates
         }
 
         public virtual async Task<TEntity> GetAsync(TId id)
-            => await DatabaseContext.Set<TEntity>().FindAsync(id);           
-    
+            => await DatabaseContext.Set<TEntity>().FindAsync(id);
+
+        public virtual async Task<ICollection<TEntity>> GetAsync()
+           => await DatabaseContext.Set<TEntity>().ToListAsync();
+
         public virtual async Task<bool> ExistAsync(TId id)
             => await GetAsync(id) != null;
 

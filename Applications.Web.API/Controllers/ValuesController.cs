@@ -29,18 +29,21 @@ namespace Application.Web.API.Controllers
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ICollection<ValuesResponse>))]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult> Get()
-        {
-            return Ok();
-        }
+            => Ok(mapper.Map<ICollection<ValuesResponse>>(await uow.Values.GetAsync()));        
 
         // GET api/values/5
         [HttpGet("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ValuesResponse))]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<ActionResult> Get(int id)
-        {
-            return Ok();
-        }
+        public async Task<ActionResult> Get([FromRoute] int id)
+            => Ok(mapper.Map<ValuesResponse>(await uow.Values.GetAsync(id)));
+
+        // GET api/values/5
+        [HttpGet("get_by_name/{name}")]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ValuesResponse))]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<ActionResult> Get([FromRoute] string name)
+            => Ok(mapper.Map<ValuesResponse>(await uow.Values.GetByNameAsync(name)));
 
         // POST api/values
         [HttpPost]
@@ -57,16 +60,35 @@ namespace Application.Web.API.Controllers
             return Ok(newValue.Id);
         }
 
-        // PUT api/values/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ValuesRequest))]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status422UnprocessableEntity)]
+        public async Task<IActionResult> Put([FromRoute] long id, [FromBody] ValuesRequest value)
         {
+            var currentValue = await uow.Values.GetAsync(id);
+            mapper.Map(value, currentValue);
+
+            uow.Values.Update(currentValue);
+
+            await uow.CommitAsync();
+
+            return Ok();
         }
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ValuesRequest))]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status422UnprocessableEntity)]
+        public async Task<IActionResult> Delete([FromRoute] long id)
         {
+   
+            uow.Values.Remove(await uow.Values.GetAsync(id));
+
+            await uow.CommitAsync();
+
+            return Ok();
         }
     }
 }

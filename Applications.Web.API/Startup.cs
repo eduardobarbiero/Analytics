@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Infraestructure.Repositories;
 using Infrastructure.Config;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -30,7 +31,7 @@ namespace Application.Web.API
         public IConfigurationRoot Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public IServiceProvider ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
             services.AddMvc();
@@ -43,7 +44,9 @@ namespace Application.Web.API
             {
                 c.SwaggerDoc("v1", new Info { Title = "Analytics API", Version = "v1" });
                 var basePath = PlatformServices.Default.Application.ApplicationBasePath;
-            });           
+            });
+
+            return InjectionConfigurator.Configure(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

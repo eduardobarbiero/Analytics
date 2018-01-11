@@ -7,8 +7,10 @@ C:\personal\Analytics\Applications.Web.API\bin\Debug\netcoreapp2.0\Applications.
 C:\personal\Analytics\Applications.Web.API\bin\Debug\netcoreapp2.0\Domain.dll
 C:\personal\Analytics\Applications.Web.API\bin\Debug\netcoreapp2.0\Infraestructure.Config.dll
 C:\personal\Analytics\Applications.Web.API\bin\Debug\netcoreapp2.0\Infraestructure.Mapping.dll
+C:\personal\Analytics\Applications.Web.API\bin\Debug\netcoreapp2.0\Infraestructure.Repositories.dll
 C:\personal\Analytics\Applications.Web.API\bin\Debug\netcoreapp2.0\Infraestructure.Config.pdb
 C:\personal\Analytics\Applications.Web.API\bin\Debug\netcoreapp2.0\Applications.Web.pdb
+C:\personal\Analytics\Applications.Web.API\bin\Debug\netcoreapp2.0\Infraestructure.Repositories.pdb
 C:\personal\Analytics\Applications.Web.API\bin\Debug\netcoreapp2.0\Domain.pdb
 C:\personal\Analytics\Applications.Web.API\bin\Debug\netcoreapp2.0\Infraestructure.Mapping.pdb
 C:\personal\Analytics\Applications.Web.API\obj\Debug\netcoreapp2.0\Applications.Web.API.csprojResolveAssemblyReference.cache
@@ -17,5 +19,3 @@ C:\personal\Analytics\Applications.Web.API\obj\Debug\netcoreapp2.0\Applications.
 C:\personal\Analytics\Applications.Web.API\obj\Debug\netcoreapp2.0\Applications.Web.API.AssemblyInfo.cs
 C:\personal\Analytics\Applications.Web.API\obj\Debug\netcoreapp2.0\Applications.Web.API.dll
 C:\personal\Analytics\Applications.Web.API\obj\Debug\netcoreapp2.0\Applications.Web.API.pdb
-C:\personal\Analytics\Applications.Web.API\bin\Debug\netcoreapp2.0\Infraestructure.Repositories.dll
-C:\personal\Analytics\Applications.Web.API\bin\Debug\netcoreapp2.0\Infraestructure.Repositories.pdb

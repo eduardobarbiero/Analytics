@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Domain.Domain
 {
@@ -16,6 +17,9 @@ namespace Domain.Domain
         public DateTime? CreatedAt { get; set; } = DateTime.Now;
 
         public virtual ICollection<ValueWork> ValueWorks { get; set; }
+
+
+        public ValueWork FindValueWork(long id) => ValueWorks.FirstOrDefault(vw => vw.Id == id);
 
 
     }

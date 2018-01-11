@@ -13,3 +13,5 @@ C:\personal\Analytics\Infraestructure.Repositories\obj\Debug\netcoreapp2.0\Infra
 C:\personal\Analytics\Infraestructure.Repositories\obj\Debug\netcoreapp2.0\Infraestructure.Repositories.AssemblyInfo.cs
 C:\personal\Analytics\Infraestructure.Repositories\obj\Debug\netcoreapp2.0\Infraestructure.Repositories.dll
 C:\personal\Analytics\Infraestructure.Repositories\obj\Debug\netcoreapp2.0\Infraestructure.Repositories.pdb
+C:\personal\Analytics\Infraestructure.Repositories\bin\Debug\netcoreapp2.0\Applications.Web.dll
+C:\personal\Analytics\Infraestructure.Repositories\bin\Debug\netcoreapp2.0\Applications.Web.pdb
