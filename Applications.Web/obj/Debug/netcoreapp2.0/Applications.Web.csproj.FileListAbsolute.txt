@@ -1,0 +1,11 @@
+C:\personal\Analytics\Applications.Web\bin\Debug\netcoreapp2.0\Applications.Web.deps.json
+C:\personal\Analytics\Applications.Web\bin\Debug\netcoreapp2.0\Applications.Web.dll
+C:\personal\Analytics\Applications.Web\bin\Debug\netcoreapp2.0\Applications.Web.pdb
+C:\personal\Analytics\Applications.Web\bin\Debug\netcoreapp2.0\Domain.dll
+C:\personal\Analytics\Applications.Web\bin\Debug\netcoreapp2.0\Domain.pdb
+C:\personal\Analytics\Applications.Web\obj\Debug\netcoreapp2.0\Applications.Web.csprojResolveAssemblyReference.cache
+C:\personal\Analytics\Applications.Web\obj\Debug\netcoreapp2.0\Applications.Web.csproj.CoreCompileInputs.cache
+C:\personal\Analytics\Applications.Web\obj\Debug\netcoreapp2.0\Applications.Web.AssemblyInfoInputs.cache
+C:\personal\Analytics\Applications.Web\obj\Debug\netcoreapp2.0\Applications.Web.AssemblyInfo.cs
+C:\personal\Analytics\Applications.Web\obj\Debug\netcoreapp2.0\Applications.Web.dll
+C:\personal\Analytics\Applications.Web\obj\Debug\netcoreapp2.0\Applications.Web.pdb

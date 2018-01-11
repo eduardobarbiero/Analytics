@@ -1,0 +1,6 @@
+C:\personal\Analytics\Applications.Infraestructure\obj\Debug\netcoreapp2.0\Applications.Infraestructure.csproj.CoreCompileInputs.cache
+C:\personal\Analytics\Applications.Infraestructure\obj\Debug\netcoreapp2.0\Applications.Infraestructure.AssemblyInfoInputs.cache
+C:\personal\Analytics\Applications.Infraestructure\obj\Debug\netcoreapp2.0\Applications.Infraestructure.AssemblyInfo.cs
+C:\personal\Analytics\Applications.Infraestructure\bin\Debug\netcoreapp2.0\Applications.Infraestructure.deps.json
+C:\personal\Analytics\Applications.Infraestructure\bin\Debug\netcoreapp2.0\Applications.Infraestructure.dll
+C:\personal\Analytics\Applications.Infraestructure\obj\Debug\netcoreapp2.0\Applications.Infraestructure.csprojResolveAssemblyReference.cache

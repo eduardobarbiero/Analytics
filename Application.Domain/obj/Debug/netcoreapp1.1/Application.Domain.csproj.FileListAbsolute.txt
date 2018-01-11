@@ -4,3 +4,7 @@
 /Users/macbook/Projects/Analytics/Application.Domain/obj/Debug/netcoreapp1.1/Application.Domain.csprojResolveAssemblyReference.cache
 /Users/macbook/Projects/Analytics/Application.Domain/obj/Debug/netcoreapp1.1/Application.Domain.csproj.CoreCompileInputs.cache
 /Users/macbook/Projects/Analytics/Application.Domain/obj/Debug/netcoreapp1.1/Application.Domain.AssemblyInfo.cs
+C:\personal\Analytics\Application.Domain\obj\Debug\netcoreapp1.1\Application.Domain.csprojResolveAssemblyReference.cache
+C:\personal\Analytics\Application.Domain\obj\Debug\netcoreapp1.1\Application.Domain.csproj.CoreCompileInputs.cache
+C:\personal\Analytics\Application.Domain\obj\Debug\netcoreapp1.1\Application.Domain.AssemblyInfoInputs.cache
+C:\personal\Analytics\Application.Domain\obj\Debug\netcoreapp1.1\Application.Domain.AssemblyInfo.cs

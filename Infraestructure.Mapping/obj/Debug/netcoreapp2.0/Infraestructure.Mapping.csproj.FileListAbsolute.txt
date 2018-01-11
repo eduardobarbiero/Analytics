@@ -1,0 +1,11 @@
+C:\personal\Analytics\Infraestructure.Mapping\bin\Debug\netcoreapp2.0\Infraestructure.Mapping.deps.json
+C:\personal\Analytics\Infraestructure.Mapping\bin\Debug\netcoreapp2.0\Infraestructure.Mapping.dll
+C:\personal\Analytics\Infraestructure.Mapping\bin\Debug\netcoreapp2.0\Infraestructure.Mapping.pdb
+C:\personal\Analytics\Infraestructure.Mapping\bin\Debug\netcoreapp2.0\Domain.dll
+C:\personal\Analytics\Infraestructure.Mapping\bin\Debug\netcoreapp2.0\Domain.pdb
+C:\personal\Analytics\Infraestructure.Mapping\obj\Debug\netcoreapp2.0\Infraestructure.Mapping.csprojResolveAssemblyReference.cache
+C:\personal\Analytics\Infraestructure.Mapping\obj\Debug\netcoreapp2.0\Infraestructure.Mapping.csproj.CoreCompileInputs.cache
+C:\personal\Analytics\Infraestructure.Mapping\obj\Debug\netcoreapp2.0\Infraestructure.Mapping.AssemblyInfoInputs.cache
+C:\personal\Analytics\Infraestructure.Mapping\obj\Debug\netcoreapp2.0\Infraestructure.Mapping.AssemblyInfo.cs
+C:\personal\Analytics\Infraestructure.Mapping\obj\Debug\netcoreapp2.0\Infraestructure.Mapping.dll
+C:\personal\Analytics\Infraestructure.Mapping\obj\Debug\netcoreapp2.0\Infraestructure.Mapping.pdb

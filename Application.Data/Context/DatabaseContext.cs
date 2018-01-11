@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-using Application.Domain.Domain;
+using Domain.Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
