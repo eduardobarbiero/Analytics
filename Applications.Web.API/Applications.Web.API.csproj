@@ -20,6 +20,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Applications.Infraestructure\Infraestructure.Config.csproj" />
     <ProjectReference Include="..\Applications.Web\Applications.Web.csproj" />
+    <ProjectReference Include="..\Infraestructure.Repositories\Infraestructure.Repositories.csproj" />
   </ItemGroup>
 
 </Project>

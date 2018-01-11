@@ -1,9 +1,6 @@
 ﻿using Domain.Domain;
 using Infrastructure.Config;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Infraestructure.Repositories.Templates

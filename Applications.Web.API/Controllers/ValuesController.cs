@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Application.Domain.Repository;
 using Applications.Web.Models.Response;
+using AutoMapper;
+using Domain.Domain;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,6 +14,16 @@ namespace Application.Web.API.Controllers
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
+
+        private readonly IMapper mapper;
+        private readonly UnitOfWork uow;
+
+        public ValuesController(UnitOfWork uow, IMapper mapper)
+        {
+            this.uow = uow;
+            this.mapper = mapper;
+        }
+
         // GET api/values
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ICollection<ValuesResponse>))]
@@ -31,8 +44,17 @@ namespace Application.Web.API.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(int))]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status422UnprocessableEntity)]
+        public async Task<IActionResult> Post([FromBody] ValuesRequest value)
         {
+            var newValue = mapper.Map<Value>(value);
+            uow.Values.Create(newValue);
+
+            await uow.CommitAsync();
+
+            return Ok(newValue.Id);
         }
 
         // PUT api/values/5

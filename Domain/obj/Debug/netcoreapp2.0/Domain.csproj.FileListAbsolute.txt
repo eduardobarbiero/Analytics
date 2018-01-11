@@ -1,9 +1,9 @@
 C:\personal\Analytics\Domain\bin\Debug\netcoreapp2.0\Domain.deps.json
 C:\personal\Analytics\Domain\bin\Debug\netcoreapp2.0\Domain.dll
 C:\personal\Analytics\Domain\bin\Debug\netcoreapp2.0\Domain.pdb
-C:\personal\Analytics\Domain\obj\Debug\netcoreapp2.0\Domain.csprojResolveAssemblyReference.cache
 C:\personal\Analytics\Domain\obj\Debug\netcoreapp2.0\Domain.csproj.CoreCompileInputs.cache
 C:\personal\Analytics\Domain\obj\Debug\netcoreapp2.0\Domain.AssemblyInfoInputs.cache
 C:\personal\Analytics\Domain\obj\Debug\netcoreapp2.0\Domain.AssemblyInfo.cs
 C:\personal\Analytics\Domain\obj\Debug\netcoreapp2.0\Domain.dll
 C:\personal\Analytics\Domain\obj\Debug\netcoreapp2.0\Domain.pdb
+C:\personal\Analytics\Domain\obj\Debug\netcoreapp2.0\Domain.csprojResolveAssemblyReference.cache

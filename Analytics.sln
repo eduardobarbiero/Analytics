@@ -12,21 +12,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infraestructures", "4 - Infraestructures", "{6A56D85B-9189-4319-BE6C-04B16F6C9E2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Applications.Web", "Applications.Web\Applications.Web.csproj", "{A9CF502B-B1B7-47B7-AD71-E3D4F9231841}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Applications.Web", "Applications.Web\Applications.Web.csproj", "{A9CF502B-B1B7-47B7-AD71-E3D4F9231841}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{856204F9-8157-4ADF-A52C-B81297E7526A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{856204F9-8157-4ADF-A52C-B81297E7526A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructure.Config", "Applications.Infraestructure\Infraestructure.Config.csproj", "{76668018-8F14-43B8-A32E-045186333465}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infraestructure.Config", "Applications.Infraestructure\Infraestructure.Config.csproj", "{76668018-8F14-43B8-A32E-045186333465}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{A0BFFBEF-AF13-4D22-BEAC-42AE7017FAC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructure.Mapping", "Infraestructure.Mapping\Infraestructure.Mapping.csproj", "{63C0583F-F599-40F4-887D-B827BB043FA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infraestructure.Mapping", "Infraestructure.Mapping\Infraestructure.Mapping.csproj", "{63C0583F-F599-40F4-887D-B827BB043FA3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - Domain", "4.2 - Domain", "{7AD6F9DD-2B72-424E-8675-F3DC2B3C0CE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructure.Repositories", "Infraestructure.Repositories\Infraestructure.Repositories.csproj", "{C2E5CAE0-7E3A-487F-BD80-8365CEB1175A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infraestructure.Repositories", "Infraestructure.Repositories\Infraestructure.Repositories.csproj", "{C2E5CAE0-7E3A-487F-BD80-8365CEB1175A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Applications.Web.API", "Applications.Web.API\Applications.Web.API.csproj", "{2E8E2B80-B64C-4E35-A1E9-2E61F565933B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Applications.Web.API", "Applications.Web.API\Applications.Web.API.csproj", "{2E8E2B80-B64C-4E35-A1E9-2E61F565933B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Domain.Domain
 {
@@ -10,8 +11,11 @@ namespace Domain.Domain
 
         public long Id { get; set; }
 
-
         public string Name { get; set; }
+
+        public DateTime? CreatedAt { get; set; } = DateTime.Now;
+
+        public virtual ICollection<ValueWork> ValueWorks { get; set; }
 
 
     }

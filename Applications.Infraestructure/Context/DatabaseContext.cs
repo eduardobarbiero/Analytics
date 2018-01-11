@@ -13,6 +13,7 @@ namespace Infrastructure.Config
         }
 
         public DbSet<Value> Values { get; set; }
+        public DbSet<ValueWork> ValueWorks { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

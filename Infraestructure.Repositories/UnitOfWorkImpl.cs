@@ -1,8 +1,5 @@
 ﻿using Application.Domain.Repository;
 using Infrastructure.Config;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Infraestructure.Repositories
